@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dodaj mecz</title>
+</head>
+<body>
+    <h1>Dodaj nowy mecz</h1>
+    <form action="match" method="post">
+        Druzyna A: <input type="text" name="teamA" required><br>
+        Druzyna B: <input type="text" name="teamB" required><br>
+        Gole A: <input type="number" name="goalsA" min="0" required><br>
+        Gole B: <input type="number" name="goalsB" min="0" required><br>
+        <input type="submit" value="Dodaj mecz">
+    </form>
+    <a href="match">Pokaz mecze</a> | <a href="stats">Statystyki</a>
+</body>
+</html>
